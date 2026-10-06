@@ -1,0 +1,336 @@
+variable,type,meaning,units,role
+Unnamed: 0,Integer,Export index,None,Exclude
+timestamp,Datetime,AOI entry time; anonymized year,UTC,Group and split
+class,Binary integer,0 false call; 1 confirmed defect,0/1,Spot outcome
+inspection_type,Categorical integer,Configuration code,0–4,Predictor and context
+meta_feat1,Categorical integer,Anonymous AOI metadata; physical category withheld,Code,P
+meta_feat2,Categorical integer,Anonymous AOI metadata; physical category withheld,Code,P
+meta_feat3,Categorical integer,Anonymous AOI metadata; physical category withheld,Code,P
+meta_feat4,Categorical integer,Anonymous AOI metadata; physical category withheld,Code,P
+inspection_feat1,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat2,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat3,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat4,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat5,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat6,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat7,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat8,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat9,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat10,Float64 storage; numerical or encoded categorical,"AOI field; types 0,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat11,Float64 storage; numerical or encoded categorical,"AOI field; types 0,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat12,Float64 storage; numerical or encoded categorical,"AOI field; types 0,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat13,Float64 storage; numerical or encoded categorical,"AOI field; types 2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat14,Float64 storage; numerical or encoded categorical,AOI field; types unmapped; physical meaning withheld; type dependent,0–1,Excluded because applicability is unmapped
+inspection_feat15,Float64 storage; numerical or encoded categorical,AOI field; types unmapped; physical meaning withheld; type dependent,0–1,Excluded because applicability is unmapped
+inspection_feat16,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat17,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat18,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat19,Float64 storage; numerical or encoded categorical,"AOI field; types 0,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat20,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat21,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat22,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat23,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat24,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat25,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat26,Float64 storage; numerical or encoded categorical,"AOI field; types 0,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat27,Float64 storage; numerical or encoded categorical,"AOI field; types 0,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat28,Float64 storage; numerical or encoded categorical,"AOI field; types 0,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat29,Float64 storage; numerical or encoded categorical,"AOI field; types 0,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat30,Float64 storage; numerical or encoded categorical,"AOI field; types 0,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat31,Float64 storage; numerical or encoded categorical,"AOI field; types 0,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat32,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat33,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat34,Float64 storage; numerical or encoded categorical,"AOI field; types 2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat35,Float64 storage; numerical or encoded categorical,AOI field; types unmapped; physical meaning withheld; type dependent,0–1,Excluded because applicability is unmapped
+inspection_feat36,Float64 storage; numerical or encoded categorical,AOI field; types unmapped; physical meaning withheld; type dependent,0–1,Excluded because applicability is unmapped
+inspection_feat37,Float64 storage; numerical or encoded categorical,AOI field; types unmapped; physical meaning withheld; type dependent,0–1,Excluded because applicability is unmapped
+inspection_feat40,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat41,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat42,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat43,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat44,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat45,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat46,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat47,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat48,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3,4; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat49,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat53,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat54,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat55,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat56,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat57,Float64 storage; numerical or encoded categorical,"AOI field; types 0,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat58,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat59,Float64 storage; numerical or encoded categorical,"AOI field; types 0,1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat63,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat64,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat65,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat71,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat72,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat78,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat88,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat89,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat90,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat93,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat94,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat95,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat96,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat97,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat98,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+inspection_feat99,Float64 storage; numerical or encoded categorical,"AOI field; types 1,2,3; physical meaning withheld; type dependent",0–1,Type contextual predictor
+group_id,Category,Canonical timestamp shared by records,ID,Grouping
+group_defect,Binary,max(class) within group,0/1,Primary outcome
+dominant_type,Category,Mode inspection_type; ties smallest code,0–4,RQ1 predictor
+active_day,Ordered date,Observed date in sorted active day sequence,Day,Split and blocks
+period,Binary category,First 50 versus last 51 active days,Early/late,RQ4 predictor
+group_score,Numerical,max(spot model score) within group,0–1 score,Decision input
+retain_review,Binary,1 if group_score ≥ frozen tau,0/1,Policy outcome
+candidate_avoid,Binary,1 − retain_review,0/1,RQ3 outcome
+gated feature,Numerical family,inspection_featj value for applicable type k; zero otherwise,Scaled,Type context
+encoded metadata,Binary family,Training fitted one hot categories of type and metadata,0/1,Model input
+inspection_feat1__type0,Float64 storage,inspection_feat1 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat2__type0,Float64 storage,inspection_feat2 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat3__type0,Float64 storage,inspection_feat3 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat4__type0,Float64 storage,inspection_feat4 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat5__type0,Float64 storage,inspection_feat5 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat6__type0,Float64 storage,inspection_feat6 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat7__type0,Float64 storage,inspection_feat7 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat8__type0,Float64 storage,inspection_feat8 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat9__type0,Float64 storage,inspection_feat9 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat10__type0,Float64 storage,inspection_feat10 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat11__type0,Float64 storage,inspection_feat11 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat12__type0,Float64 storage,inspection_feat12 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat16__type0,Float64 storage,inspection_feat16 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat17__type0,Float64 storage,inspection_feat17 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat18__type0,Float64 storage,inspection_feat18 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat19__type0,Float64 storage,inspection_feat19 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat20__type0,Float64 storage,inspection_feat20 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat22__type0,Float64 storage,inspection_feat22 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat23__type0,Float64 storage,inspection_feat23 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat24__type0,Float64 storage,inspection_feat24 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat25__type0,Float64 storage,inspection_feat25 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat26__type0,Float64 storage,inspection_feat26 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat27__type0,Float64 storage,inspection_feat27 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat28__type0,Float64 storage,inspection_feat28 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat29__type0,Float64 storage,inspection_feat29 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat30__type0,Float64 storage,inspection_feat30 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat31__type0,Float64 storage,inspection_feat31 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat40__type0,Float64 storage,inspection_feat40 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat41__type0,Float64 storage,inspection_feat41 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat42__type0,Float64 storage,inspection_feat42 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat43__type0,Float64 storage,inspection_feat43 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat44__type0,Float64 storage,inspection_feat44 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat45__type0,Float64 storage,inspection_feat45 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat46__type0,Float64 storage,inspection_feat46 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat47__type0,Float64 storage,inspection_feat47 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat48__type0,Float64 storage,inspection_feat48 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat49__type0,Float64 storage,inspection_feat49 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat53__type0,Float64 storage,inspection_feat53 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat54__type0,Float64 storage,inspection_feat54 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat55__type0,Float64 storage,inspection_feat55 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat56__type0,Float64 storage,inspection_feat56 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat57__type0,Float64 storage,inspection_feat57 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat58__type0,Float64 storage,inspection_feat58 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat59__type0,Float64 storage,inspection_feat59 gated to inspection type 0; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat1__type1,Float64 storage,inspection_feat1 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat2__type1,Float64 storage,inspection_feat2 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat3__type1,Float64 storage,inspection_feat3 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat4__type1,Float64 storage,inspection_feat4 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat5__type1,Float64 storage,inspection_feat5 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat6__type1,Float64 storage,inspection_feat6 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat7__type1,Float64 storage,inspection_feat7 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat8__type1,Float64 storage,inspection_feat8 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat9__type1,Float64 storage,inspection_feat9 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat16__type1,Float64 storage,inspection_feat16 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat17__type1,Float64 storage,inspection_feat17 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat18__type1,Float64 storage,inspection_feat18 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat20__type1,Float64 storage,inspection_feat20 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat21__type1,Float64 storage,inspection_feat21 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat22__type1,Float64 storage,inspection_feat22 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat23__type1,Float64 storage,inspection_feat23 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat24__type1,Float64 storage,inspection_feat24 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat25__type1,Float64 storage,inspection_feat25 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat32__type1,Float64 storage,inspection_feat32 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat33__type1,Float64 storage,inspection_feat33 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat40__type1,Float64 storage,inspection_feat40 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat41__type1,Float64 storage,inspection_feat41 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat42__type1,Float64 storage,inspection_feat42 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat43__type1,Float64 storage,inspection_feat43 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat44__type1,Float64 storage,inspection_feat44 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat45__type1,Float64 storage,inspection_feat45 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat46__type1,Float64 storage,inspection_feat46 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat47__type1,Float64 storage,inspection_feat47 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat48__type1,Float64 storage,inspection_feat48 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat49__type1,Float64 storage,inspection_feat49 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat53__type1,Float64 storage,inspection_feat53 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat54__type1,Float64 storage,inspection_feat54 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat55__type1,Float64 storage,inspection_feat55 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat56__type1,Float64 storage,inspection_feat56 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat58__type1,Float64 storage,inspection_feat58 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat59__type1,Float64 storage,inspection_feat59 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat63__type1,Float64 storage,inspection_feat63 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat64__type1,Float64 storage,inspection_feat64 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat65__type1,Float64 storage,inspection_feat65 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat71__type1,Float64 storage,inspection_feat71 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat72__type1,Float64 storage,inspection_feat72 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat78__type1,Float64 storage,inspection_feat78 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat88__type1,Float64 storage,inspection_feat88 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat89__type1,Float64 storage,inspection_feat89 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat90__type1,Float64 storage,inspection_feat90 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat93__type1,Float64 storage,inspection_feat93 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat94__type1,Float64 storage,inspection_feat94 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat95__type1,Float64 storage,inspection_feat95 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat96__type1,Float64 storage,inspection_feat96 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat97__type1,Float64 storage,inspection_feat97 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat98__type1,Float64 storage,inspection_feat98 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat99__type1,Float64 storage,inspection_feat99 gated to inspection type 1; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat1__type2,Float64 storage,inspection_feat1 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat2__type2,Float64 storage,inspection_feat2 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat3__type2,Float64 storage,inspection_feat3 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat4__type2,Float64 storage,inspection_feat4 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat5__type2,Float64 storage,inspection_feat5 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat6__type2,Float64 storage,inspection_feat6 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat7__type2,Float64 storage,inspection_feat7 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat8__type2,Float64 storage,inspection_feat8 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat9__type2,Float64 storage,inspection_feat9 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat10__type2,Float64 storage,inspection_feat10 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat11__type2,Float64 storage,inspection_feat11 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat12__type2,Float64 storage,inspection_feat12 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat13__type2,Float64 storage,inspection_feat13 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat16__type2,Float64 storage,inspection_feat16 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat17__type2,Float64 storage,inspection_feat17 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat18__type2,Float64 storage,inspection_feat18 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat19__type2,Float64 storage,inspection_feat19 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat20__type2,Float64 storage,inspection_feat20 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat21__type2,Float64 storage,inspection_feat21 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat22__type2,Float64 storage,inspection_feat22 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat23__type2,Float64 storage,inspection_feat23 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat24__type2,Float64 storage,inspection_feat24 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat25__type2,Float64 storage,inspection_feat25 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat26__type2,Float64 storage,inspection_feat26 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat27__type2,Float64 storage,inspection_feat27 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat28__type2,Float64 storage,inspection_feat28 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat29__type2,Float64 storage,inspection_feat29 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat30__type2,Float64 storage,inspection_feat30 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat31__type2,Float64 storage,inspection_feat31 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat32__type2,Float64 storage,inspection_feat32 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat33__type2,Float64 storage,inspection_feat33 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat34__type2,Float64 storage,inspection_feat34 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat40__type2,Float64 storage,inspection_feat40 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat41__type2,Float64 storage,inspection_feat41 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat42__type2,Float64 storage,inspection_feat42 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat43__type2,Float64 storage,inspection_feat43 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat44__type2,Float64 storage,inspection_feat44 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat45__type2,Float64 storage,inspection_feat45 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat46__type2,Float64 storage,inspection_feat46 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat47__type2,Float64 storage,inspection_feat47 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat48__type2,Float64 storage,inspection_feat48 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat49__type2,Float64 storage,inspection_feat49 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat53__type2,Float64 storage,inspection_feat53 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat54__type2,Float64 storage,inspection_feat54 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat55__type2,Float64 storage,inspection_feat55 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat56__type2,Float64 storage,inspection_feat56 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat57__type2,Float64 storage,inspection_feat57 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat58__type2,Float64 storage,inspection_feat58 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat59__type2,Float64 storage,inspection_feat59 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat63__type2,Float64 storage,inspection_feat63 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat64__type2,Float64 storage,inspection_feat64 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat65__type2,Float64 storage,inspection_feat65 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat71__type2,Float64 storage,inspection_feat71 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat72__type2,Float64 storage,inspection_feat72 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat78__type2,Float64 storage,inspection_feat78 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat88__type2,Float64 storage,inspection_feat88 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat89__type2,Float64 storage,inspection_feat89 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat90__type2,Float64 storage,inspection_feat90 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat93__type2,Float64 storage,inspection_feat93 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat94__type2,Float64 storage,inspection_feat94 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat95__type2,Float64 storage,inspection_feat95 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat96__type2,Float64 storage,inspection_feat96 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat97__type2,Float64 storage,inspection_feat97 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat98__type2,Float64 storage,inspection_feat98 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat99__type2,Float64 storage,inspection_feat99 gated to inspection type 2; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat1__type3,Float64 storage,inspection_feat1 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat2__type3,Float64 storage,inspection_feat2 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat3__type3,Float64 storage,inspection_feat3 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat4__type3,Float64 storage,inspection_feat4 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat5__type3,Float64 storage,inspection_feat5 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat6__type3,Float64 storage,inspection_feat6 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat7__type3,Float64 storage,inspection_feat7 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat8__type3,Float64 storage,inspection_feat8 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat9__type3,Float64 storage,inspection_feat9 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat10__type3,Float64 storage,inspection_feat10 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat11__type3,Float64 storage,inspection_feat11 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat12__type3,Float64 storage,inspection_feat12 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat13__type3,Float64 storage,inspection_feat13 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat16__type3,Float64 storage,inspection_feat16 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat17__type3,Float64 storage,inspection_feat17 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat18__type3,Float64 storage,inspection_feat18 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat19__type3,Float64 storage,inspection_feat19 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat20__type3,Float64 storage,inspection_feat20 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat21__type3,Float64 storage,inspection_feat21 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat22__type3,Float64 storage,inspection_feat22 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat23__type3,Float64 storage,inspection_feat23 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat24__type3,Float64 storage,inspection_feat24 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat25__type3,Float64 storage,inspection_feat25 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat26__type3,Float64 storage,inspection_feat26 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat27__type3,Float64 storage,inspection_feat27 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat28__type3,Float64 storage,inspection_feat28 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat29__type3,Float64 storage,inspection_feat29 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat30__type3,Float64 storage,inspection_feat30 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat31__type3,Float64 storage,inspection_feat31 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat32__type3,Float64 storage,inspection_feat32 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat33__type3,Float64 storage,inspection_feat33 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat34__type3,Float64 storage,inspection_feat34 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat40__type3,Float64 storage,inspection_feat40 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat41__type3,Float64 storage,inspection_feat41 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat42__type3,Float64 storage,inspection_feat42 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat43__type3,Float64 storage,inspection_feat43 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat44__type3,Float64 storage,inspection_feat44 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat45__type3,Float64 storage,inspection_feat45 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat46__type3,Float64 storage,inspection_feat46 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat47__type3,Float64 storage,inspection_feat47 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat48__type3,Float64 storage,inspection_feat48 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat49__type3,Float64 storage,inspection_feat49 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat53__type3,Float64 storage,inspection_feat53 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat54__type3,Float64 storage,inspection_feat54 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat55__type3,Float64 storage,inspection_feat55 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat56__type3,Float64 storage,inspection_feat56 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat57__type3,Float64 storage,inspection_feat57 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat58__type3,Float64 storage,inspection_feat58 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat59__type3,Float64 storage,inspection_feat59 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat63__type3,Float64 storage,inspection_feat63 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat64__type3,Float64 storage,inspection_feat64 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat65__type3,Float64 storage,inspection_feat65 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat71__type3,Float64 storage,inspection_feat71 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat72__type3,Float64 storage,inspection_feat72 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat78__type3,Float64 storage,inspection_feat78 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat88__type3,Float64 storage,inspection_feat88 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat89__type3,Float64 storage,inspection_feat89 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat90__type3,Float64 storage,inspection_feat90 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat93__type3,Float64 storage,inspection_feat93 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat94__type3,Float64 storage,inspection_feat94 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat95__type3,Float64 storage,inspection_feat95 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat96__type3,Float64 storage,inspection_feat96 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat97__type3,Float64 storage,inspection_feat97 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat98__type3,Float64 storage,inspection_feat98 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat99__type3,Float64 storage,inspection_feat99 gated to inspection type 3; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat1__type4,Float64 storage,inspection_feat1 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat2__type4,Float64 storage,inspection_feat2 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat3__type4,Float64 storage,inspection_feat3 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat4__type4,Float64 storage,inspection_feat4 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat5__type4,Float64 storage,inspection_feat5 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat6__type4,Float64 storage,inspection_feat6 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat7__type4,Float64 storage,inspection_feat7 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat8__type4,Float64 storage,inspection_feat8 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat9__type4,Float64 storage,inspection_feat9 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat16__type4,Float64 storage,inspection_feat16 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat17__type4,Float64 storage,inspection_feat17 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat18__type4,Float64 storage,inspection_feat18 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat20__type4,Float64 storage,inspection_feat20 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat21__type4,Float64 storage,inspection_feat21 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat22__type4,Float64 storage,inspection_feat22 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat23__type4,Float64 storage,inspection_feat23 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat25__type4,Float64 storage,inspection_feat25 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat32__type4,Float64 storage,inspection_feat32 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat33__type4,Float64 storage,inspection_feat33 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat34__type4,Float64 storage,inspection_feat34 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input
+inspection_feat48__type4,Float64 storage,inspection_feat48 gated to inspection type 4; 0 outside type,Scaled 0–1,Type contextual model input

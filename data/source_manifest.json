@@ -1,0 +1,19 @@
+{
+  "dataset_doi": "10.17632/99jzmh9658.2",
+  "version": 2,
+  "landing_page": "https://data.mendeley.com/datasets/99jzmh9658/2",
+  "files": [
+    {
+      "filename": "dataset.csv",
+      "sha256": "53e8568743216d556856ed69b388f6750fbfa0b8c59ad31f970515ac9eb10e62",
+      "bytes": 333590345,
+      "url": "https://data.mendeley.com/public-files/datasets/99jzmh9658/files/3bcbede5-358b-489a-b4b8-9ac3a06e89b9/file_downloaded"
+    },
+    {
+      "filename": "mapping.json",
+      "sha256": "3b20f440b6d9ed0baefa662e1a6f03688befbe0f28341a3b54655d3058c6e486",
+      "bytes": 7205,
+      "url": "https://data.mendeley.com/public-files/datasets/99jzmh9658/files/e22624d7-0124-410c-8528-715b1e1c8c87/file_downloaded"
+    }
+  ]
+}
