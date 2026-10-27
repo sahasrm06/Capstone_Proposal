@@ -1,0 +1,30 @@
+{
+  "alpha_per_RQ": 0.0125,
+  "confidence": 0.9875,
+  "power": 0.8,
+  "z_two_sided": 2.497705474412374,
+  "z_power": 0.8416212335729143,
+  "chi_critical": 12.761851397743166,
+  "N1": 1611,
+  "RQ2_positive_events": 225,
+  "group_prevalence_for_projection": 0.02201700971264657,
+  "N2_cohort_equivalent": 10220,
+  "N3_test_groups": 3900,
+  "RQ4_per_period": 5435,
+  "N4": 10870,
+  "Nminimum": 10870,
+  "Nstudy": 39742,
+  "event_and_allocation_checks": {
+    "RQ2": true,
+    "RQ3": true,
+    "RQ4_early": true,
+    "RQ4_late": true
+  },
+  "design_effect_two_sensitivity": {
+    "RQ2_events": 450,
+    "RQ2_available": 614,
+    "RQ3_groups": 7800,
+    "RQ4_each": 10870,
+    "interpretation": "Sensitivity assumption, not an estimated design effect."
+  }
+}

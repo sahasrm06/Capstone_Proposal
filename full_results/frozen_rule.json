@@ -1,0 +1,23 @@
+{
+  "best": {
+    "id": 13,
+    "kind": "HGB",
+    "params": {
+      "max_leaf_nodes": 15,
+      "l2_regularization": 10
+    },
+    "fold_ap": [
+      0.6262388714257764,
+      0.5891380776492442,
+      0.1551451012854508
+    ],
+    "mean_ap": 0.45684068345349044
+  },
+  "validation": {
+    "threshold": 0.0015671193783586082,
+    "positives": 82,
+    "sensitivity": 0.9878048780487805,
+    "avoidance": 0.17629287364492624,
+    "lower_sensitivity": 0.9081378877077193
+  }
+}
